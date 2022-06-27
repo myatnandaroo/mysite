@@ -1,0 +1,15 @@
+<h1>Student Name</h1>
+
+<table border="1">
+{% for x in mystu %}
+<tr>
+<td>{{ x.id }}</td>
+<td>{{ x.firstname }}</td>
+<td>{{ x.lastname }}</td>
+</tr>
+{% endfor %}
+</table>
+
+<p>
+    <a href="add/">Add Student</a>
+</p
